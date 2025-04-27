@@ -629,5 +629,8 @@ address{
     border-radius: 4px;
 }
 
+.foot_subscribe_svg {
+    margin-left: 16px;
+}
 
 /* footer */
