@@ -760,14 +760,6 @@ address{
 .modal_form_comment {
     margin-bottom: 16px;
 }
-.modal_comment_lable {
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
-    color: var(--light-slate);
-    display: block;
-    margin-bottom: 4px;
-}
 
 .modal_comment_textarea {
     width: 100%;
@@ -788,5 +780,10 @@ address{
 .modal_comment_textarea:focus {
     border-color: #4D5AE5;
 }
+
+.modal_chexbox {
+    margin-bottom: 24px;
+}
+
 
 /* modal window */
