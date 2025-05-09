@@ -8,8 +8,10 @@
     --white: #FFFFFF;
     --navy-blue: #2E2F42;
     --light-slate: #8e8f99;
-    /* --iris: #4d5ae5;
     --ocean: #404bbf;
+    --iris: #4d5ae5;
+    /* 
+    
     
     --green: #31d0aa;
     --slate: #434455;
@@ -77,15 +79,15 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+    color: var(--iris);
 }
 
 .a_header:hover{
-    color: #404bbf;
+    color: var(--ocean);
 }
 
 .a_header:focus{
-    color: #404bbf;
+    color: var(--ocean);
 }
 
 .web {
@@ -101,11 +103,11 @@ img {
     display: flex;
     gap: 40px;
     position: relative;
-    color: #404bbf;
+    color: var(--ocean);
 }
 
 .ul_header>li>a{
-    color: #404bbf;
+    color: var(--ocean);
 }
 
 .header_ul{
@@ -117,7 +119,7 @@ img {
     gap: 40px;
     padding: 24px 0;
     position: relative;
-    color: #404bbf;
+    color: var(--ocean);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -129,15 +131,15 @@ img {
     bottom: -1px;
     height: 4px;
     border-radius: 2px;
-    background-color: #404bbf;
+    background-color: var(--ocean);
 }
 
 .header_ul:hover{
-    color: #404bbf;
+    color: var(--ocean);
 }
 
 .header_ul:focus{
-    color: #404bbf;
+    color: var(--ocean);
 }
 
 
@@ -146,7 +148,7 @@ img {
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.02em;
-    color: #404bbf;
+    color: var(--ocean);
 }
 
 .ul_address {
@@ -163,11 +165,11 @@ img {
 }
 
 .address_li:hover{
-    color: #404bbf;
+    color: var(--ocean);
 }
 
 .address_li:focus{
-    color: #404bbf;
+    color: var(--ocean);
 }
 
 address{
@@ -213,7 +215,7 @@ address{
 .main_btn {
     margin-right: auto;
     margin-left: auto;
-    background-color: #4D5AE5;
+    background-color: var(--iris);
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: 16px;
@@ -230,11 +232,11 @@ address{
 }
 
 .main_btn:hover {
-    background-color: #404BBF;
+    background-color: var(--ocean);
 }
 
 .main_btn:focus {
-    background-color: #404BBF
+    background-color: var(--ocean)
 }
 
 /* section_1 */
@@ -357,7 +359,7 @@ address{
 .oteam_social_a {
     width: 100%;
     height: 100%;
-    background-color: #4d5ae5;
+    background-color: var(--iris);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -366,11 +368,11 @@ address{
 }
 
 .oteam_social_a:hover {
-    background-color: #404bbf;
+    background-color: var(--ocean);
 }
 
 .oteam_social_a:focus {
-    background-color: #404bbf;
+    background-color: var(--ocean);
 }
 
 .oteam_social_svg {
@@ -455,7 +457,7 @@ address{
     letter-spacing: 0.02em;
     color: var(--cloud);
     padding: 40px 32px;
-    background-color: #4d5ae5;
+    background-color: var(--iris);
     height: 100%;
     width: 100%;
     transform: translateY(100%);
@@ -519,7 +521,7 @@ address{
     font-size: 18px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+    color: var(--iris);
 }
 
 .web_foot {
@@ -560,7 +562,7 @@ address{
 .foot_social_a {
     width: 100%;
     height: 100%;
-    background-color: #4d5ae5;
+    background-color: var(--iris);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -625,7 +627,7 @@ address{
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
-    background-color: #4D5AE5;
+    background-color: var(--iris);
     border: none;
     border-radius: 4px;
 }
@@ -687,13 +689,13 @@ address{
 }
 
 .modal_btn:hover {
-    background-color: #404bbf;
+    background-color: var(--ocean);
     border: none;
     fill: #ffffff;
 }
 
 .modal_btn:focus {
-    background-color: #404bbf;
+    background-color: var(--ocean);
     border: none;
     fill: #ffffff;
 }
@@ -741,8 +743,8 @@ address{
 }
 
 .modal_name_input:focus {
-    border-color: #4D5AE5;
-    fill: #4D5AE5;
+    border-color: var(--iris);
+    fill: var(--iris);
 }
 
 .modal_name_svg {
@@ -754,7 +756,7 @@ address{
 }
 
 .modal_name_input:focus + .modal_name_svg {
-    fill: #4D5AE5;
+    fill: var(--iris);
 }
 
 .modal_form_comment {
@@ -778,12 +780,59 @@ address{
 }
 
 .modal_comment_textarea:focus {
-    border-color: #4D5AE5;
+    border-color: var(--iris);
 }
 
 .modal_chexbox {
     margin-bottom: 24px;
 }
 
+.modal_chexbox_lable {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--light-slate);
+}
+
+.modal_chexbox_span {
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+    transition: 
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+}
+
+.modal_chexbox_input:checked + .modal_chexbox_span {
+    background-color: var(--ocean);
+    border: none;
+    fill: var(--cloud);
+}
+
+.modal_chexbox_a {
+    color: var(--iris);
+}
+
+.modal_send_btn {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: var(--iris);
+    border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 /* modal window */
