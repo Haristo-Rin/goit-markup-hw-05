@@ -809,7 +809,7 @@ address{
     fill: transparent;
 }
 
-.modal_chexbox_input:checked + .modal_chexbox_span {
+.modal_chexbox_input:checked + .modal_chexbox_lable > .modal_chexbox_span {
     background-color: var(--ocean);
     border: none;
     fill: var(--cloud);
